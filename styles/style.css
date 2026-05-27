@@ -176,6 +176,7 @@
   border: 2px solid transparent;
   background-color: transparent;
   cursor: pointer;
+  transition: border-color 0.3s ease;
 }
 
 .button {
@@ -187,6 +188,7 @@
   font-size: 14px;
   line-height: 90%;
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
 .card__like-button {
@@ -219,10 +221,6 @@
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.button {
-  transition: box-shadow 0.3s ease;
-}
-
 .button__text {
   position: relative;
   z-index: 1;
@@ -232,10 +230,6 @@
 
 .card__icon-button:focus {
   outline: none;
-}
-
-.card__icon-button {
-  transition: border-color 0.3s ease;
 }
 
 .card__icon-button:focus-visible {
