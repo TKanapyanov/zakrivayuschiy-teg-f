@@ -247,7 +247,7 @@
 
 .save-button__icon {
   position: relative;
-  z-index: 1;  
+  z-index: 1;
   inline-size: 21px;
   block-size: 21px;
   flex-shrink: 0;
