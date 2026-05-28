@@ -251,6 +251,7 @@
   inline-size: 21px;
   block-size: 21px;
   flex-shrink: 0;
+  mix-blend-mode: difference;
 }
 
 .dialog {
