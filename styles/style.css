@@ -242,13 +242,12 @@
   gap: 8px;
   align-self: center;
   padding: 15px 20px;
+  color: var(--button-text-color);
 }
 
 .save-button__icon {
   position: relative;
-  z-index: 1;
-  color: var(--button-text-color);
-  mix-blend-mode: difference;
+  z-index: 1;  
   inline-size: 21px;
   block-size: 21px;
   flex-shrink: 0;
